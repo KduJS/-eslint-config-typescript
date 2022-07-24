@@ -1,0 +1,56 @@
+{
+  "name": "@kdujs/eslint-config-typescript",
+  "version": "11.0.0-rc.0",
+  "description": "eslint-config-typescript for kdu-cli",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "recommended.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdujs/eslint-config-typescript.git"
+  },
+  "keywords": [
+    "kdu",
+    "cli",
+    "eslint",
+    "typescript"
+  ],
+  "author": "NKDuy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdujs/eslint-config-typescript/issues"
+  },
+  "homepage": "https://github.com/kdujs/eslint-config-typescript#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-plugin-kdu": "^8.7.1-rc.0",
+    "execa": "^4.0.3",
+    "typescript": "^4.0.3",
+    "kdu": "^2.6.14-alpha.1",
+    "kdu-class-component": "^6.1.2-alpha.0",
+    "kdu-property-decorator": "^5.1.1-alpha.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.2.0 || ^7.0.0 || ^8.0.0",
+    "eslint-plugin-kdu": "^8.7.1-rc.0",
+    "typescript": "*"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "kdu-eslint-parser": "^8.0.1-rc.0"
+  },
+  "engines": {
+    "node": "^14.17.0 || >=16.0.0"
+  }
+}
