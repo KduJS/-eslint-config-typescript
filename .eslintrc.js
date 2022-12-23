@@ -10,6 +10,10 @@ module.exports = {
   ],
 
   overrides: [{
+    files: ['test/**.spec.js'],
+    env: {
+      jest: true
+    },
     rules: {
       '@typescript-eslint/no-var-requires': 'off'
     }

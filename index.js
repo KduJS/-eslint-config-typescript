@@ -5,7 +5,7 @@ module.exports = {
   // in turn delegates to the parser, specified in `parserOptions.parser`:
   // https://github.com/kdujs/eslint-plugin-kdu#what-is-the-use-the-latest-kdu-eslint-parser-error
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: require.resolve('@typescript-eslint/parser'),
     extraFileExtensions: ['.kdu'],
     ecmaFeatures: {
       jsx: true
